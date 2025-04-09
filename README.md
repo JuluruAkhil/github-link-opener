@@ -8,6 +8,7 @@ A simple Chrome extension that automatically opens non-GitHub links in new tabs 
 - Automatically opens non-GitHub links in new tabs
 - Works with all types of links (absolute, relative, and root-relative)
 - No configuration needed - just install and browse GitHub as usual
+- Minimal permissions - only requires access to GitHub.com
 
 ## Installation
 
@@ -52,7 +53,8 @@ This extension:
 
 - Only runs on GitHub.com pages
 - Does not collect or transmit any user data
-- Does not require any special permissions beyond accessing the active tab
+- Requires minimal permissions - only needs access to GitHub.com
+- Does not track browsing history or store any data
 
 ## Files in this Extension
 
@@ -72,4 +74,4 @@ MIT License - See LICENSE file for details
 
 ## Support
 
-If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/yourusername/github-link-opener/issues) on GitHub.
+If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/JuluruAkhil/github-link-opener/issues) on GitHub.

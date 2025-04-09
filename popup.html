@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GitHub Link Opener</title>
+    <style>
+      body {
+        width: 300px;
+        padding: 10px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+          Arial, sans-serif;
+      }
+      h1 {
+        font-size: 16px;
+        color: #24292e;
+      }
+      p {
+        font-size: 14px;
+        color: #586069;
+        margin-bottom: 10px;
+      }
+      .status {
+        background-color: #2ea44f;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 6px;
+        font-size: 14px;
+        margin-top: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>GitHub Link Opener</h1>
+    <p>
+      This extension automatically opens non-GitHub links in new tabs when
+      you're browsing GitHub.com.
+    </p>
+    <p>No action needed - just browse GitHub as usual!</p>
+    <div class="status" id="statusMessage">Extension is active</div>
+    <script src="popup.js"></script>
+  </body>
+</html>

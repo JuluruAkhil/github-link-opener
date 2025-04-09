@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Link Opener",
+  "version": "1.0.0",
+  "description": "Automatically opens non-GitHub links in new tabs when browsing GitHub.com, keeping you on GitHub while accessing external resources.",
+  "author": "Your Name",
+  "permissions": ["activeTab"],
+  "host_permissions": ["*://github.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "homepage_url": "https://github.com/yourusername/github-link-opener",
+  "offline_enabled": true
+}

@@ -14,7 +14,7 @@ A simple Chrome extension that automatically opens non-GitHub links in new tabs 
 
 ### From Chrome Web Store (Recommended)
 
-1. Visit the [Chrome Web Store](https://chrome.google.com/webstore/detail/github-link-opener/your-extension-id)
+1. Visit the [Chrome Web Store](https://chromewebstore.google.com/detail/kmedjapbknhaihmnpdanijibjaigedlm)
 2. Click "Add to Chrome"
 3. Confirm the installation
 

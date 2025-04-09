@@ -21,11 +21,10 @@ A simple Chrome extension that automatically opens non-GitHub links in new tabs 
 ### Manual Installation (Developer Mode)
 
 1. Clone or download this repository to your local machine
-2. **Important**: Replace the placeholder icon files in the `images` folder with actual PNG images of the appropriate sizes (16x16, 48x48, and 128x128)
-3. Open Chrome and navigate to `chrome://extensions/`
-4. Enable "Developer mode" by toggling the switch in the top right corner
-5. Click "Load unpacked" and select the directory containing the extension files
-6. The extension should now be installed and visible in your extensions list
+2. Open Chrome and navigate to `chrome://extensions/`
+3. Enable "Developer mode" by toggling the switch in the top right corner
+4. Click "Load unpacked" and select the directory containing the extension files
+5. The extension should now be installed and visible in your extensions list
 
 ## Usage
 

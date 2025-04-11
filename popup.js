@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const activeTab = tabs[0]
     const statusMessage = document.getElementById("statusMessage")
 
-    if (activeTab.url.includes("github.com")) {
+    if (activeTab && activeTab.url && activeTab.url.includes("github.com")) {
       statusMessage.textContent = "Extension is active on GitHub"
       statusMessage.style.backgroundColor = "#2ea44f"
     } else {

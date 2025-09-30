@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "GitHub Link Opener",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "Automatically opens non-GitHub links in new tabs when browsing GitHub.com, keeping you on GitHub while accessing external resources.",
   "author": "Akhil Juluru",
   "host_permissions": ["*://github.com/*"],

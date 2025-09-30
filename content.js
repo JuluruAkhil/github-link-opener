@@ -3,7 +3,7 @@ console.log("GitHub Link Opener extension is active on this page")
 
 // Function to check if a URL is from GitHub
 function isGitHubUrl(url) {
-  return url.includes("github.com")
+  return url.includes("github.com") || url.includes("github.dev")
 }
 
 // Function to convert relative URL to absolute URL
